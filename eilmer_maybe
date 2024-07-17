@@ -1,0 +1,10 @@
+echo "# huhhh" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/airuehle116/huhhh.git
+git push -u origin main
+
+
+git clone https://github.com/gdtk-uq/gdtk.git gdtk
